@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        tr:nth-child(even)
+        {
+            background-color: purple;
+        }
+        tr:nth-child(odd):not(:first-child)
+        {
+            background-color: pink;
+        }
+    </style>
+</head>
+<body>
+    <table border="4", cellspacing="10px", cellpadding="10px">
+        <tr>
+            <th>S.ID</th>
+        <th colspan="2">Full Name</th>
+        <th>Marks</th>
+        </tr>
+        <tr>
+            <td>101</td>
+            <td>Saina</td>
+            <td>Karki</td>
+            <td>34</td>
+        </tr>
+        <tr>
+            <td>102</td>
+            <td>Reeju</td>
+            <td>Neupane</td>
+            <td>40</td>
+        </tr>
+        <tr>
+            <td>103</td>
+            <td>Ekta</td>
+            <td>Rawat</td>
+            <td rowspan="2">45</td>
+        </tr>
+        <tr>
+            <td>104</td>
+            <td>Shweta</td>
+            <td>Neupane</td>
+        </tr>
+        <tr>
+            <td>105</td>
+            <td>Swostika</td>
+            <td>Balami</td>
+            <td rowspan="2">38</td>
+        </tr>
+        <tr>
+            <td>106</td>
+            <td>Alena</td>
+            <td>Maharjan</td>
+
+        </tr>
+    </table>
+</body>
+</html>
