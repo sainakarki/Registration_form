@@ -6,26 +6,25 @@
     <title>Form1</title>
     <style>
     div{
-        margin: 1opx;
+        margin: 10px;
         padding: 10px;
-        background-color: blanchedalmond;
+        text-align: center;
     }
-    #fname{
-            margin-left:50px;
+    #main {
+        border: solid black;
     }
     </style>
 </head>
 <body>
-    <div>
+    <div id="main">
+        <caption><B>Registration Form</B></caption>
     <div id="fname">
     <label>First-name:</label>
-    <input type="text" name="First-name" id="First-name">
-    <label>last_name:</label>
-    <input type="text" name="last_name" id="last_name">     
+    <input type="text" name="First-name" id="First-name">   
     </div>
     <div id="lname">
     <label> Last-name:</label>
-    <!-- /* <input type="text" name="last_name" id="last_name"> -->
+    <input type="text" name="last_name" id="last_name"> 
 </div>
 <div id="dob">
 <label>Date of Birth:</label>
@@ -51,6 +50,9 @@
     <input type="checkbox" name="12" id="plus2"/>+2
     <input type="checkbox" name="13" id="bachelor"/>Under_graduate
     <input type="checkbox" name="14" id="bachelor"/>Graduate
+</div>
+<div id="button">
+    <button>Submit</button>
 </div>
 </div>
 </body>
